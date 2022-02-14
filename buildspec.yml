@@ -2,8 +2,8 @@ version 0.2
 
 phases:
   install:
-    dotnet: 5.0
+    runtime-versions:
+      dotnet: 5.0
   build:
     commands:
-      - dotnet build -c Release ./FourStepPipelineDemo.csproj
-  
+      - dotnet build -c Release ./FourStepPipelineDemo.csproj  
